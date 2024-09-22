@@ -1,0 +1,103 @@
+﻿  main.cpp
+D:\softwarePake\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: “paddle_infer::Tensor::name_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle_infer::Tensor”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: “paddle::PaddleTensor::name”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::PaddleTensor”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: “paddle::PaddleTensor::shape”:“std::vector<int,std::allocator<int>>”需要有 dll 接口以供“paddle::PaddleTensor”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: “paddle::PaddleTensor::lod”:“std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>”需要有 dll 接口以供“paddle::PaddleTensor”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: “paddle::NativeConfig::prog_file”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::NativeConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: “paddle::NativeConfig::param_file”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::NativeConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_pass_builder.h(107,28): warning C4251: “paddle::PaddlePassBuilder::analysis_passes_”:“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::PaddlePassBuilder”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: “paddle::PaddlePassBuilder::passes_”:“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::PaddlePassBuilder”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: “paddle::AnalysisConfig::model_dir_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: “paddle::AnalysisConfig::prog_file_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: “paddle::AnalysisConfig::params_file_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: “paddle::AnalysisConfig::gpu_fp16_disabled_op_types_”:“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: “paddle::AnalysisConfig::min_input_shape_”:“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: “paddle::AnalysisConfig::max_input_shape_”:“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: “paddle::AnalysisConfig::optim_input_shape_”:“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: “paddle::AnalysisConfig::trt_disabled_ops_”:“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: “paddle::AnalysisConfig::shape_range_info_path_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: “paddle::AnalysisConfig::mkldnn_enabled_op_types_”:“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: “paddle::AnalysisConfig::serialized_info_cache_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: “paddle::AnalysisConfig::pass_builder_”:“std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: “paddle::AnalysisConfig::lite_passes_filter_”:“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: “paddle::AnalysisConfig::lite_ops_filter_”:“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: “paddle::AnalysisConfig::xpu_autotune_file_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: “paddle::AnalysisConfig::xpu_precision_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: “paddle::AnalysisConfig::mkldnn_quantizer_config_”:“std::shared_ptr<paddle::MkldnnQuantizerConfig>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: “paddle::AnalysisConfig::bfloat16_enabled_op_types_”:“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: “paddle::AnalysisConfig::opt_cache_dir_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: “paddle::AnalysisConfig::dist_config_”:“paddle::DistConfig”需要有 dll 接口以供“paddle::AnalysisConfig”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: “return”: 从“const uint64_t”转换到“int”，可能丢失数据
+D:\softwarePake\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: “paddle_infer::Predictor::predictor_”:“std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>”需要有 dll 接口以供“paddle_infer::Predictor”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: “paddle_infer::services::PredictorPool::main_pred_”:“std::shared_ptr<paddle_infer::Predictor>”需要有 dll 接口以供“paddle_infer::services::PredictorPool”的客户端使用
+D:\softwarePake\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: “paddle_infer::services::PredictorPool::preds_”:“std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>”需要有 dll 接口以供“paddle_infer::services::PredictorPool”的客户端使用
+D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\main.cpp(188,45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+gflags_static.lib(gflags.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(args.obj 中)
+gflags_static.lib(gflags.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(args.obj 中)
+gflags_static.lib(gflags_reporting.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(args.obj 中)
+gflags_static.lib(gflags_reporting.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(args.obj 中)
+gflags_static.lib(gflags_completions.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(args.obj 中)
+gflags_static.lib(gflags_completions.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(args.obj 中)
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+libcpmtd.lib(xonce.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+utility.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+libcpmtd.lib(xtime.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+postprocess_op.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+preprocess_op.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+structure_layout.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+structure_table.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+ocr_det.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+ocr_rec.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+paddleocr.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+paddlestructure.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+args.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+clipper.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+main.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+ocr_cls.obj : error LNK2001: 无法解析的外部符号 _CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _calloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _calloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _calloc_dbg
+clipper.obj : error LNK2001: 无法解析的外部符号 _calloc_dbg
+main.obj : error LNK2001: 无法解析的外部符号 _calloc_dbg
+utility.obj : error LNK2001: 无法解析的外部符号 _calloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2001: 无法解析的外部符号 _calloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+utility.obj : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _free_dbg
+clipper.obj : error LNK2001: 无法解析的外部符号 _free_dbg
+main.obj : error LNK2001: 无法解析的外部符号 _free_dbg
+ocr_rec.obj : error LNK2001: 无法解析的外部符号 _free_dbg
+structure_layout.obj : error LNK2001: 无法解析的外部符号 _free_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+utility.obj : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 _malloc_dbg
+clipper.obj : error LNK2001: 无法解析的外部符号 _malloc_dbg
+main.obj : error LNK2001: 无法解析的外部符号 _malloc_dbg
+ocr_rec.obj : error LNK2001: 无法解析的外部符号 _malloc_dbg
+structure_layout.obj : error LNK2001: 无法解析的外部符号 _malloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 _wcsdup_dbg，函数 _Getctype 中引用了该符号
+libcpmtd.lib(xstrcoll.obj) : error LNK2001: 无法解析的外部符号 _wcsdup_dbg
+libcpmtd.lib(locale.obj) : error LNK2019: 无法解析的外部符号 _realloc_dbg，函数 "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned __int64)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z) 中引用了该符号
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2019: 无法解析的外部符号 _CrtDbgReportW，函数 _freea_crt 中引用了该符号
+libcpmtd.lib(xmbtowc.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReportW
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: 无法解析的外部符号 _CrtDbgReportW
+D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\Debug\ppocr.exe : fatal error LNK1120: 7 个无法解析的外部命令

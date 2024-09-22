@@ -1,0 +1,150 @@
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-UPDATE.RULE
+setlocal
+cd D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-BUILD.RULE
+setlocal
+cd D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-INSTALL.RULE
+setlocal
+cd D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\A30839B9AB497F982D87752FC6DEAC3B\EXTERN_AUTOLOG-POPULATE-TEST.RULE
+setlocal
+cd D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\92644366B6FA70329B8898C84EFEFD03\EXTERN_AUTOLOG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/Debug/extern_autolog-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\55B08DAA5C5DCC30ECE931B5003C0A0E\EXTERN_AUTOLOG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild -BD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild --check-stamp-file D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

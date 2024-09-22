@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\a30839b9ab497f982d87752fc6deac3b\extern_autolog-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\92644366b6fa70329b8898c84efefd03\extern_autolog-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\55b08daa5c5dcc30ece931b5003c0a0e\extern_autolog-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\third-party\extern_autolog-subbuild\CMakeFiles\extern_autolog-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EEBE3E05-8F7B-38F9-9306-7A216ADCAFAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

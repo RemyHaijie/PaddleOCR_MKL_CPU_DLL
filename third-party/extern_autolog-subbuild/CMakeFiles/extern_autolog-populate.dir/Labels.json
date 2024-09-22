@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/extern_autolog-populate"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/55b08daa5c5dcc30ece931b5003c0a0e/extern_autolog-populate.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/92644366b6fa70329b8898c84efefd03/extern_autolog-populate-complete.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-build.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-configure.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-download.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-install.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-patch.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-test.rule"
+		},
+		{
+			"file" : "D:/BaiduNetdiskDownload/\u8c03\u7528dll\u7efc\u5408/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"extern_autolog-populate"
+		],
+		"name" : "extern_autolog-populate"
+	}
+}

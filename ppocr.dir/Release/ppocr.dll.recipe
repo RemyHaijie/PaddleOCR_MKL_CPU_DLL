@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\Build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\Release\ppocr.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

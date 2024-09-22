@@ -1,0 +1,10 @@
+^D:\BAIDUNETDISKDOWNLOAD\调用DLL综合\PADDLEOCR-RELEASE-2.6\PADDLEOCR-RELEASE-2.6\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\55B08DAA5C5DCC30ECE931B5003C0A0E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild -BD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/extern_autolog-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

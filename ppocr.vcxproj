@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E53CB92F-F0C8-34FA-8CD0-08D8C0ABFC12}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ppocr</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ppocr.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ppocr</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ppocr.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ppocr</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ppocr.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ppocr</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ppocr.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ppocr</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/softwarePake/cv/opencv/build/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\softwarePake\paddle_inference\paddle\lib\paddle_inference.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\mklml.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;D:\softwarePake\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libcmt.lib;shlwapi.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/softwarePake/paddle_inference/paddle/lib;D:/softwarePake/paddle_inference/paddle/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/zlib/lib;D:/softwarePake/paddle_inference/third_party/install/zlib/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/protobuf/lib;D:/softwarePake/paddle_inference/third_party/install/protobuf/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/glog/lib;D:/softwarePake/paddle_inference/third_party/install/glog/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/gflags/lib;D:/softwarePake/paddle_inference/third_party/install/gflags/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/xxhash/lib;D:/softwarePake/paddle_inference/third_party/install/xxhash/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib;D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib;D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/Debug/ppocr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/Debug/ppocr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\include;D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/softwarePake/cv/opencv/build/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\softwarePake\paddle_inference\paddle\lib\paddle_inference.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\mklml.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;D:\softwarePake\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libcmt.lib;shlwapi.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/softwarePake/paddle_inference/paddle/lib;D:/softwarePake/paddle_inference/paddle/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/zlib/lib;D:/softwarePake/paddle_inference/third_party/install/zlib/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/protobuf/lib;D:/softwarePake/paddle_inference/third_party/install/protobuf/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/glog/lib;D:/softwarePake/paddle_inference/third_party/install/glog/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/gflags/lib;D:/softwarePake/paddle_inference/third_party/install/gflags/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/xxhash/lib;D:/softwarePake/paddle_inference/third_party/install/xxhash/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib;D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib;D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/Release/ppocr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/Release/ppocr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/softwarePake/cv/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\softwarePake\paddle_inference\paddle\lib\paddle_inference.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\mklml.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;D:\softwarePake\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libcmt.lib;shlwapi.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/softwarePake/paddle_inference/paddle/lib;D:/softwarePake/paddle_inference/paddle/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/zlib/lib;D:/softwarePake/paddle_inference/third_party/install/zlib/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/protobuf/lib;D:/softwarePake/paddle_inference/third_party/install/protobuf/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/glog/lib;D:/softwarePake/paddle_inference/third_party/install/glog/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/gflags/lib;D:/softwarePake/paddle_inference/third_party/install/gflags/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/xxhash/lib;D:/softwarePake/paddle_inference/third_party/install/xxhash/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib;D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib;D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/MinSizeRel/ppocr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/MinSizeRel/ppocr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/softwarePake/cv/opencv/build/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;STATIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\softwarePake\paddle_inference\paddle\include;D:\softwarePake\paddle_inference\third_party\install\protobuf\include;D:\softwarePake\paddle_inference\third_party\install\glog\include;D:\softwarePake\paddle_inference\third_party\install\gflags\include;D:\softwarePake\paddle_inference\third_party\install\xxhash\include;D:\softwarePake\paddle_inference\third_party\install\zlib\include;D:\softwarePake\paddle_inference\third_party\install\onnxruntime\include;D:\softwarePake\paddle_inference\third_party\install\paddle2onnx\include;D:\softwarePake\paddle_inference\third_party\boost;D:\softwarePake\paddle_inference\third_party\eigen3;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer;D:\softwarePake\paddle_inference\third_party\install\mklml\include;D:\softwarePake\paddle_inference\third_party\install\mkldnn\include;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\third-party\extern_autolog-src;D:\softwarePake\cv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/softwarePake/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\softwarePake\paddle_inference\paddle\lib\paddle_inference.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\mklml.lib;D:\softwarePake\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;D:\softwarePake\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libcmt.lib;shlwapi.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;D:\softwarePake\cv\opencv\build\x64\vc16\lib\opencv_world4100.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/softwarePake/paddle_inference/paddle/lib;D:/softwarePake/paddle_inference/paddle/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/zlib/lib;D:/softwarePake/paddle_inference/third_party/install/zlib/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/protobuf/lib;D:/softwarePake/paddle_inference/third_party/install/protobuf/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/glog/lib;D:/softwarePake/paddle_inference/third_party/install/glog/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/gflags/lib;D:/softwarePake/paddle_inference/third_party/install/gflags/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/xxhash/lib;D:/softwarePake/paddle_inference/third_party/install/xxhash/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib;D:/softwarePake/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib;D:/softwarePake/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/RelWithDebInfo/ppocr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/RelWithDebInfo/ppocr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer -BD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build --check-stamp-file D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeSystem.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\external-cmake\auto-log.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig-version.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer -BD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build --check-stamp-file D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeSystem.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\external-cmake\auto-log.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig-version.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer -BD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build --check-stamp-file D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeSystem.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\external-cmake\auto-log.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig-version.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer -BD:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build --check-stamp-file D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\3.30.3\CMakeSystem.cmake;D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\external-cmake\auto-log.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig-version.cmake;D:\softwarePake\cv\opencv\build\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;D:\softwarePake\cv\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\API.cpp" />
+    <ClCompile Include="..\src\MyOCR.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\args.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\clipper.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\main.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\ocr_cls.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\ocr_det.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\ocr_rec.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\paddleocr.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\paddlestructure.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\postprocess_op.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\preprocess_op.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\structure_layout.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\structure_table.cpp" />
+    <ClCompile Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\src\utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\BaiduNetdiskDownload\调用dll综合\PaddleOCR-release-2.6\PaddleOCR-release-2.6\deploy\cpp_infer\build\ZERO_CHECK.vcxproj">
+      <Project>{8F36A0AC-8F9E-3E60-8D56-1E9B3C6DD2E3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\API.h" />
+    <ClInclude Include="..\include\MyOCR.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

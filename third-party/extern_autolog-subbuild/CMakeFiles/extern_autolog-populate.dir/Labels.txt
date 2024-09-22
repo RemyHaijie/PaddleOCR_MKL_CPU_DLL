@@ -1,0 +1,14 @@
+# Target labels
+ extern_autolog-populate
+# Source files and their labels
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/extern_autolog-populate
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/55b08daa5c5dcc30ece931b5003c0a0e/extern_autolog-populate.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/92644366b6fa70329b8898c84efefd03/extern_autolog-populate-complete.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-build.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-configure.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-download.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-install.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-mkdir.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-patch.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-test.rule
+D:/BaiduNetdiskDownload/调用dll综合/PaddleOCR-release-2.6/PaddleOCR-release-2.6/deploy/cpp_infer/Build/third-party/extern_autolog-subbuild/CMakeFiles/a30839b9ab497f982d87752fc6deac3b/extern_autolog-populate-update.rule
